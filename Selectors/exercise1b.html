@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Boxes and spacing</title>
+  <style>
+    body {
+      background-color: #f0f8ff;
+    }
+
+    .box {
+      width: 75%;
+      min-width: 500px;
+      border: 1px solid #333;
+      margin-bottom: 1em;   
+    padding: 0.5em;
+      background-color: #fff;
+      border-radius: 6px;
+     box-shadow: 2px 2px 6px rgba(0, 0, 0, 1);
+    }
+
+
+   
+
+    .orange {
+      font-weight: bold;
+      padding: 0 0.5em;
+      background-color: #fdca96;
+    }
+
+    .yellow {
+      font-weight: bold;
+      padding: 0 0.5em;
+      background-color: #fdfd96;
+    }
+  </style>
+</head>
+<body>
+  <h1>News</h1>
+
+  <div class="box">
+    <h2>News Heading 1</h2>
+    <p>
+      Lorem <span class="orange">ipsum</span> dolor sit amet consectetur adipisicing elit.
+      Perferendis, inventore sapiente debitis voluptatem rerum nam recusandae obcaecati nobis!
+      Tempora excepturi nemo consectetur earum. Voluptatum <span class="yellow">quis</span> adipisci
+      consectetur optio illo fugit? Lorem dolor sit amet consectetur adipisicing elit.
+      Similique inventore temporibus tempore nemo eveniet delectus aperiam, eligendi a
+      exercitationem quos in beatae provident saepe eum hic totam reiciendis
+      <span class="yellow">quis</span> suscipit? Lorem dolor sit amet consectetur adipisicing elit.
+    </p>
+  </div>
+
+  <div style="border-color: red; border-style: dashed; color: red;  box-shadow: 2px 2px 6px red; " class="box" >
+    <h2>News Heading 2</h2>
+    <p>
+      Lorem dolor sit amet, consectetur adipisicing elit. Ad sed tenetur accusantium nobis sapiente.
+      Velit animi saepe id, veniam pariatur sint. Quasi atque quam
+      <span class="yellow">quis</span> aspernatur facere corrupti unde commodi.
+      Lorem <span class="orange">ipsum</span> dolor sit amet consectetur, adipisicing elit.
+      Atque mollitia fugiat eligendi facilis? Exercitationem corrupti natus, magni voluptate
+      doloribus magnam maxime debitis voluptatem? Distinctio nobis fuga optio sequi dolor eos?
+    </p>
+  </div>
+
+  <div class="box">
+    <h2>News Heading 3</h2>
+    <p>
+      Lorem dolor sit amet consectetur adipisicing elit. Aut dolor enim, perferendis animi saepe deleniti labore inventore in magni voluptatum? Impedit odio quos eligendi recusandae quae quisquam voluptatem, facere fuga! Lorem <span class="highlight-orange">ipsum</span> dolor sit amet consectetur, adipisicing elit. Labore possimus, molestiae cupiditate, quidem quibusdam culpa blanditiis iusto cum mollitia, quos modi? Vel nobis ea eos repellendus aliquid nulla laborum. Lorem <span class="highlight-orange">ipsum</span> dolor sit amet consectetur adipisicing elit. Modi rerum facere enim rem quisquam sequi? Eos consequatur harum doloribus veniam ratione in consequuntur facere? Repellat delectus ut temporibus optio? Lorem dolor sit amet consectetur adipisicing elit. Nesciunt ea maiores qui, molestias consequuntur recusandae iste, magnam beatae illo, ad id. Pariatur error eius recusandae officia laborum rerum, sapiente dolores.
+    </p>
+  </div>
+</body>
+</html>
